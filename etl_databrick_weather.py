@@ -2,7 +2,6 @@
 import requests
 import json
 import os
-from pyspark.sql.functions import col, current_timestamp
 from pyspark.sql.functions import col, current_timestamp, from_json, get_json_object, lit
 from pyspark.sql.types import *
 
